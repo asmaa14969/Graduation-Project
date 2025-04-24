@@ -1,0 +1,153 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .product-modal {
+    width: 90%;
+    max-width: 600px;
+    background: #0d686d;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .modal-content {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    color: white;
+  }
+  
+  .modal-image {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+  
+  .modal-image img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .modal-details h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #ffd700;
+  }
+  
+  .product-info-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+  .product-category {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 14px;
+  }
+  
+  .product-price {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .product-description {
+    margin-bottom: 15px;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  .product-rating {
+    margin-bottom: 15px;
+  }
+  
+  .stars {
+    color: #ffd700;
+    letter-spacing: 2px;
+  }
+  
+  .rating-count {
+    color: #ccc;
+    font-size: 14px;
+    margin-left: 8px;
+  }
+  
+  .availability {
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+  
+  .in-stock {
+    color: #4caf50;
+    font-weight: bold;
+  }
+  
+  .modal-actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .modal-actions button {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .buy-btn {
+    background-color: #ffd700;
+    color: #333;
+  }
+  
+  .cart-btn {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+  }
+  
+  .buy-btn:hover {
+    background-color: #ffcc00;
+  }
+  
+  .cart-btn:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  
+  .close-btn {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  /* Add a little curl effect to the corner like in the image */
+  .product-modal:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    background: #e3db74;
+    clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+  }

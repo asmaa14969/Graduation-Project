@@ -1,0 +1,31 @@
+.brand-bar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px 30px;
+  margin: 0 10px 10px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.brand-logo {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.toshiba {
+  color: #ffc107;
+}
+
+.lg {
+  color: #027273;
+}
+
+.sony {
+  color: #ffc107;
+}
+
+.samsung {
+  color: #027273;
+}

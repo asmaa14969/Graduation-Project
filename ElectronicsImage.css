@@ -1,0 +1,82 @@
+.electronics-container {
+  position: relative;
+  height: 300px;
+  width: 100%;
+}
+
+.device {
+  position: absolute;
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.refrigerator {
+  height: 180px;
+  width: 70px;
+  top: 50px;
+  left: 50px;
+  background-color: #e0e0e0;
+}
+
+.washing-machine {
+  height: 90px;
+  width: 90px;
+  bottom: 40px;
+  right: 80px;
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+
+.microwave {
+  height: 60px;
+  width: 100px;
+  top: 80px;
+  right: 120px;
+  background-color: #e0e0e0;
+}
+
+.tv {
+  height: 100px;
+  width: 150px;
+  top: 40px;
+  right: 40px;
+  background-color: #333;
+}
+
+.vacuum {
+  height: 40px;
+  width: 60px;
+  bottom: 60px;
+  left: 130px;
+  border-radius: 20px;
+  background-color: #cccccc;
+}
+
+.air-conditioner {
+  height: 50px;
+  width: 120px;
+  top: 30px;
+  left: 150px;
+  background-color: #ffffff;
+}
+
+.decoration {
+  position: absolute;
+  font-size: 24px;
+}
+
+.star {
+  top: 20px;
+  right: 20px;
+}
+
+.gear {
+  top: 100px;
+  left: 40px;
+}
+
+.paper-plane {
+  bottom: 40px;
+  right: 30px;
+}
